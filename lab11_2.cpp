@@ -41,7 +41,7 @@ void checkWinner(int p, int y){
 	else if(p>y) cout <<   "|         Player wins!!!        |"; // when p is greater than y
 	else cout <<   "|          Yugi wins!!!         |"; // when p is less than y
 	
-	cout << "\n---------------------------------\n";
+	cout << "\n---------------------------------\n\n";
 }
 
 
@@ -71,7 +71,7 @@ int main(){
         cout << "Your new score: " << playerScore << "\n";
 		
 	}
-	cout << "------------ Turn end -------------------\n\n";
+	cout << "------------ Turn end -------------------\n";
 	
 	
 	//The following lines of code for Yugi's turn are not completed. Please correct it.
